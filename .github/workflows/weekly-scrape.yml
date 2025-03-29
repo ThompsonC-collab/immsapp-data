@@ -1,0 +1,40 @@
+name: Weekly Vaccine and Clinic Scraper
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Runs every Monday at 08:00 UTC
+  workflow_dispatch: # allows manual triggering
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Vaccine Scraper
+        run: node scrape-vaccine-info.js
+
+      - name: Run Clinic Scraper
+        run: node scrape-clinic-info.js
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add vaccineData.json
+          git add clinicData.json
+          git commit -m "Update Vaccine and Clinic data (auto)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
