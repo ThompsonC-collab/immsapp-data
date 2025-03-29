@@ -158,7 +158,7 @@ const vaccine = async () => {
     }
   });
 
-  console.log(vaccineDataEnglish);
+  //console.log(vaccineDataEnglish);
 
   const output = {
     timestamp: Math.floor(Date.now() / 1000),
