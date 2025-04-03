@@ -118,7 +118,8 @@ const vaccine = async () => {
               curr.productId &&
               curr.productId !== "" &&
               existingEntry.productId !== "" &&
-              curr.productId !== existingEntry.productId
+              curr.productId !== existingEntry.productId &&
+              !isNaN(curr.productId)
             ) {
               acc.push({
                 starting: curr.age,
