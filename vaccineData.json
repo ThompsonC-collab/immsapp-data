@@ -1,5 +1,5 @@
 {
-  "timestamp": 1743457944,
+  "timestamp": 1743707533,
   "vaccines": [
     {
       "starting": "2 months",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "starting": "Grade 6",
+      "starting": "6 months",
       "vaccineName": "HPV-9",
       "productId": 31980,
       "associatedDiseases": {
@@ -131,15 +131,6 @@
         "english": [
           "Influenza"
         ],
-        "french": []
-      }
-    },
-    {
-      "starting": "18 years and older",
-      "vaccineName": "HPV-9",
-      "productId": "publications.saskatchewan.ca",
-      "associatedDiseases": {
-        "english": "HPV-9",
         "french": []
       }
     },
