@@ -1,5 +1,5 @@
 {
-  "timestamp": 1748853237,
+  "timestamp": 1749458091,
   "vaccines": [
     {
       "starting": "2 months",
@@ -126,7 +126,7 @@
     {
       "starting": "6 months",
       "vaccineName": "Influenza",
-      "productId": 82503,
+      "productId": 0,
       "associatedDiseases": {
         "english": [
           "Influenza"
@@ -165,17 +165,6 @@
       "associatedDiseases": {
         "english": [
           "Varicella"
-        ],
-        "french": []
-      }
-    },
-    {
-      "starting": "65 years and older",
-      "vaccineName": "Influenza vaccine",
-      "productId": 82503,
-      "associatedDiseases": {
-        "english": [
-          "Influenza vaccine"
         ],
         "french": []
       }
