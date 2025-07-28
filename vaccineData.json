@@ -1,5 +1,5 @@
 {
-  "timestamp": 1753087105,
+  "timestamp": 1753691868,
   "vaccines": [
     {
       "starting": "2 months",
@@ -175,7 +175,7 @@
       "productId": 123846,
       "associatedDiseases": {
         "english": [
-          "pneumococcal vaccines."
+          "Pneu-C-20 (Pneumococcal conjugate 20)"
         ],
         "french": []
       }
