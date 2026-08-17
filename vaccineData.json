@@ -1,5 +1,5 @@
 {
-  "timestamp": 1785756742,
+  "timestamp": 1786956613,
   "vaccines": [
     {
       "starting": "2 months",
@@ -54,11 +54,11 @@
     },
     {
       "starting": "12 months",
-      "vaccineName": "Meningococcal conjugate C",
-      "productId": 11773,
+      "vaccineName": "Meningococcal conjugate ACYW-135",
+      "productId": "health",
       "associatedDiseases": {
         "english": [
-          "Meningococcal conjugate C"
+          "Meningococcal conjugate ACYW-135"
         ],
         "french": []
       }
