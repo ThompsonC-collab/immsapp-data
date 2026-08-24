@@ -1,5 +1,5 @@
 {
-  "timestamp": 1786956613,
+  "timestamp": 1787561651,
   "vaccines": [
     {
       "starting": "2 months",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "starting": "12 months",
+      "starting": "8 months",
       "vaccineName": "Meningococcal conjugate ACYW-135",
       "productId": "health",
       "associatedDiseases": {
@@ -125,11 +125,22 @@
     },
     {
       "starting": "6 months",
-      "vaccineName": "Influenza",
-      "productId": 0,
+      "vaccineName": "COVID-19",
+      "productId": "health",
       "associatedDiseases": {
         "english": [
-          "Influenza"
+          "yearly"
+        ],
+        "french": []
+      }
+    },
+    {
+      "starting": "6 months",
+      "vaccineName": "Influenza",
+      "productId": "health",
+      "associatedDiseases": {
+        "english": [
+          "yearly"
         ],
         "french": []
       }
