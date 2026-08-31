@@ -1,5 +1,5 @@
 {
-  "timestamp": 1787561651,
+  "timestamp": 1788192119,
   "vaccines": [
     {
       "starting": "2 months",
@@ -69,7 +69,7 @@
       "productId": 11767,
       "associatedDiseases": {
         "english": [
-          "Hepatitis A"
+          ""
         ],
         "french": []
       }
@@ -100,7 +100,7 @@
       }
     },
     {
-      "starting": "6 months",
+      "starting": "Grade 6",
       "vaccineName": "HPV-9",
       "productId": 31980,
       "associatedDiseases": {
@@ -141,41 +141,6 @@
       "associatedDiseases": {
         "english": [
           "yearly"
-        ],
-        "french": []
-      }
-    },
-    {
-      "starting": "18 years and older",
-      "vaccineName": "MMR",
-      "productId": 11771,
-      "associatedDiseases": {
-        "english": [
-          "Measles",
-          "Mumps",
-          "Rubella"
-        ],
-        "french": []
-      }
-    },
-    {
-      "starting": "18 years and older",
-      "vaccineName": "Polio",
-      "productId": 31991,
-      "associatedDiseases": {
-        "english": [
-          "Polio"
-        ],
-        "french": []
-      }
-    },
-    {
-      "starting": "18 years and older",
-      "vaccineName": "Varicella",
-      "productId": 31987,
-      "associatedDiseases": {
-        "english": [
-          "Varicella"
         ],
         "french": []
       }
